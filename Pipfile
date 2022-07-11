@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+aiogram = "~=2.20"
+environs = "~=8.0.0"
+asyncpg = "*"
+django = "*"
+psycopg2 = "*"
+Diagram= "*"
+os= "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
